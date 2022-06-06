@@ -55,8 +55,5 @@ def send_message(message):
 
 
 
-# @bot.message_handler(func=lambda message: True)
-# def echo_all(message):
-# 	bot.send_message(message.chat.id, message.text)
 
 bot.infinity_polling()
