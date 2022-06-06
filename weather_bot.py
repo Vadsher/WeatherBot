@@ -38,7 +38,7 @@ def send_message(message):
 
 	answer = "В місті " + message.text + " зараз " + w.detailed_status + ".\n"
 	answer += "Температура за бортом становить приблизно " + str(t) + "°С.\n\n"
-	answer += "Моя порада: \n"
+	answer += "Доречі, моя порада: \n"
 
 	if t < 0:
 		answer += "Сьогодні буде холодно, швидко повернувлся і вдягнув шапку!"
