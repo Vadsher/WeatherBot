@@ -38,10 +38,10 @@ def send_message(message):
 
 	answer = "В місті " + message.text + " зараз " + w.detailed_status + ".\n"
 	answer += "Температура за бортом становить приблизно " + str(t) + "°С.\n\n"
-	answer += "Доречі, моя порада, \n"
+	answer += "Доречі, моя порада, "
 
 	if t < 0:
-		answer += "сьогодні буде холодно, швидко повернувлся і вдягнув шапку!"
+		answer += "сьогодні буде холодно, швидко повернувся і вдягнув шапку!"
 	if t < 10:
 		answer += "щось сьогодні холодно, одягнись тепліше!"
 	elif t < 18:
@@ -50,8 +50,6 @@ def send_message(message):
 		answer += "літо на дворі, одягай що хочеш!"
 
 	bot.send_message(message.chat.id, answer)
-
-
 
 
 
