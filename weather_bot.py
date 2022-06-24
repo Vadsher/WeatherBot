@@ -1,13 +1,13 @@
 #  Simple Telegram Bot
-# --------------------------------------------- #
-# Program by Vadim S.							#
-#												#
-#												#
-# Version	Date		Info					#
-# 1.0.0		06.06.2022	Initial vesrion			#
-#												#
-#												#
-# --------------------------------------------- #
+# ------------------------------------------------- #
+# Program by Vadim S.								#
+#													#
+#													#
+# Version	Date		Info						#
+# 1.0.0		06.06.2022	Initial vesrion				#
+# 1.0.1		24.06.22	Testing Teamcity build tags	#
+#													#
+# ------------------------------------------------- #
 
 import telebot
 from pyowm.owm import OWM
